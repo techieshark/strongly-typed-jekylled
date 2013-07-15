@@ -12,4 +12,6 @@ What I like:
 * simple - easy to update & runs on [github][github]
 * powerful - yoda would be proud. 
 
+![techieshark]({{ site.url }}/assets/techieshark2.png)
+
 [github]:    http://github.com
