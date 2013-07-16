@@ -1,3 +1,6 @@
+---
+#Empty YAML block here to trigger processing 
+---
 /*
 	Strongly Typed 1.0 by HTML5 UP
 	html5up.net | @n33co
@@ -5,7 +8,7 @@
 */
 
 window._skel_config = {
-	prefix: '/css/style',
+	prefix: '{{ site.baseurl }}/css/style',
 	resetCSS: true,
 	boxModel: 'border',
 	grid: {

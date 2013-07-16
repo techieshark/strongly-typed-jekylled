@@ -29,8 +29,8 @@ Notes & Modifications:
 <li>Some lorum ipsum text from Stronly Typed has been replaced with text from [Space Ipsum](http://spaceipsum.com).</li>
 <li>Strongly Typed's images have been replaced with images from placekitten / placedog etc (placeholder images of cats and dogs). The original images are still in the images/ directory.</li>
 <li>The contact form doesn't yet work.</li>
-<li>I've disabled skelJS. (See \_includes/head.html.)  You may want to re-enable it by uncommenting it and the noscript tags, and then make sure prefix is set correctly in js/config.js.</li>
-<li>See the discussion of baseurl here: http://stackoverflow.com/questions/14322329/site-root-github-pages-vs-jekyll-server</li>
+<li>See the discussion of baseurl here: http://jekyllrb.com/docs/github-pages/.  You'll need to run jekyll with the --baseurl '' option if you're doing local development, and set baseurl appropriately in your _config.yml file.
+</li>
 </ul>
 
 [jekyll-gh]: https://github.com/mojombo/jekyll
