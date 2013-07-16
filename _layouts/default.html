@@ -1,46 +1,53 @@
 <!DOCTYPE html>
+<!--
+  Design: Strongly Typed 1.0 by HTML5 UP
+  html5up.net | @n33co
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
+  {% include head.html %}
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+  <body class="homepage">
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+    {% include head-wrapper.html %}
 
-    </head>
-    <body>
+    {% include features.html %}
+    {% include banner.html %}
 
-        <div class="container">
-          <div class="site">
-            <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-              <a class="extra" href="/">home</a>
-            </div>
+    <!-- Main Wrapper -->
+      <div id="main-wrapper">
 
-                {{ content }}
+        <!-- Main -->
+          <div id="main" class="container">
+            <div class="row">
 
-            <div class="footer">
-              <div class="contact">
-                <p>
-                  Peter W<br />
-                  Developer/Designer<br />
-                  techieshark@gmail.com
-                </p>
-              </div>
-              <div class="contact">
-                <p>
-                  <a href="http://github.com/techieshark/">github.com/techieshark</a><br />
-                  <a href="http://twitter.com/techieshark/">twitter.com/techieshark</a><br />
-                </p>
-              </div>
+              <!-- Content -->
+                <div id="content" class="8u">
+
+                  {% for page in site.categories.frontpage %}                  
+
+                  <!-- Post -->
+                    <article class="is-post">
+                      <header>
+                        <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+                      </header>
+                      {{ page.content }}
+                      <ul class="actions">
+                        <li><a href="{{ page.url }}" class="button button-icon icon icon-file">Permalink</a></li>
+                      </ul>
+                    </article>
+
+                  {% endfor %}
+                </div>
+
+                {% include sidebar.html %}
+
             </div>
           </div>
-        </div> <!-- /container -->
+
+      </div>
+
+   {% include footer.html %}
 
     </body>
 </html>

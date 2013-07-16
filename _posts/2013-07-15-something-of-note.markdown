@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Something of note"
+date:   2013-07-15 19:00:00
+categories: sidebar-highlight
+---
+
+<a class="image image-left" href="{{ page.url }}">
+    <img alt="" src="/images/pic06c.jpg">
+    <!-- <img alt="" src="http://placedog.com/g/180/180"> -->
+</a>
+Phasellus sed laoreet massa id justo mattis pharetra. Fusce suscipit ligula vel quam viverra sit amet mollis tortor congue magna lorem ipsum dolor et quisque ut odio facilisis convallis. Etiam non nunc vel est suscipit convallis non id orci. Ut interdum tempus facilisis convallis. Etiam non nunc vel est suscipit convallis non id orci.

@@ -1,2 +1,19 @@
-name: Thoughts from @techieshark 
+# Note! If you're using jekyll serve --watch to run a server, you'll need to restart after any changes here
+name: "Strongly Typed"
+description: "A responsive HTML5 site template. Manufactured by HTML5 UP. Jekylled by @techieshark."
 pygments: true
+#excerpt_separator: "<!--more-->"
+
+owner: "Your Name"
+email: "foo@bar.com"
+twitter: "techieshark"
+github: "user.name"
+facebook: "user.name"
+# the following really long number is what you find in https://plus.google.com/your-really-long-id/posts
+googleplus: 111111111111111111
+location: |
+    1234 Somewhere Road
+    Nashville, TN 00000
+    USA
+phone: 555-555-5555
+skype: your.username

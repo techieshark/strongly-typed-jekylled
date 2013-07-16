@@ -1,0 +1,81 @@
+ <!-- Footer Wrapper -->
+      <div id="footer-wrapper">
+
+        <!-- Footer -->
+          <div id="footer" class="container">
+            <header>
+              <h2>Questions or comments? <strong>Get in touch:</strong></h2>
+            </header>
+            <div class="row">
+              <div class="6u">
+                <section>
+                  <form method="post" action="#">
+                    <div class="row half">
+                      <div class="6u">
+                        <input name="name" placeholder="Name" type="text" class="text" />
+                      </div>
+                      <div class="6u">
+                        <input name="email" placeholder="Email" type="text" class="text" />
+                      </div>
+                    </div>
+                    <div class="row half">
+                      <div class="12u">
+                        <textarea name="message" placeholder="Message"></textarea>
+                      </div>
+                    </div>
+                    <div class="row half">
+                      <div class="12u">
+                        <a href="#" class="button button-icon icon icon-envelope">Send Message</a>
+                      </div>
+                    </div>
+                  </form>
+                </section>
+              </div>
+              <div class="6u">
+                <section>
+                  <p>I'm interested in hearing from smart people with cool ideas.</p>
+                  <div class="row">
+                    <ul class="icons 6u">
+                      <li class="icon icon-home">
+                        {{ site.location }}
+                      </li>
+                      <li class="icon icon-skype">
+                        {{ site.skype }}
+                      </li>
+                      <li class="icon icon-phone">
+                        {{site.phone}}
+                      </li>
+                      <li class="icon icon-envelope">
+                        <a href="mailto:{{site.email}}">{{site.email}}</a>
+                      </li>
+                    </ul>
+                    <ul class="icons 6u">
+                      <li class="icon icon-twitter">
+                        <a href="https://twitter.com/{{site.twitter}}">@{{site.twitter}}</a>
+                      </li>
+
+                      <li class="icon icon-github">
+                        <a href="https://github.com/{{site.github}}">{{site.github}}</a>
+                      </li>
+                      <li class="icon icon-facebook">
+                        <a href="https://facebook.com/{{site.facebook}}">{{site.facebook}}</a>
+                      </li>
+                      <li class="icon icon-google-plus">
+                        <a href="https://plus.google.com/{{site.googleplus}}">{{site.owner}}</a>
+                      </li>
+                    </ul>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+
+        <!-- Copyright -->
+          <div id="copyright" class="container">
+            <ul class="links">
+              <li>&copy; {{ site.owner }}. All rights reserved</li>
+              <li>Design: <a href="http://html5up.net/">HTML5 UP</a></li>
+            </ul>
+          </div>
+
+      </div>
