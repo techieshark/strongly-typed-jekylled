@@ -23,7 +23,7 @@ Check out the [Jekyll docs][jekyll] for more info on how to get the most out of 
 
 Notes & Modifications:
 <ul class="style1">
-<li>Removed left sidebar, right sidebar, no-sidebar links from header wrapper (in \_includes/head-wrapper.html).  Rather than locating those files in the root directory, they're now layouts in \_layouts directory).  The default layout is used for the front page index (\_layouts/default.html), posts use the right hand sidebar layout (\_layouts/right-sidebar.html), and the strongly-typed.html and archive.html pages use the no-sidebar layout (\_layouts/no-sidebar.html).</li>
+<li>Removed left sidebar, right sidebar, no-sidebar links from header wrapper (in \_includes/head-wrapper.html).  Rather than locating those files in the root directory, they're now layouts in \_layouts directory).  The default layout is used for the front page index (\_layouts/default.html), posts use the right hand sidebar layout (\_layouts/right-sidebar.html), and the strongly-typed.html and archive.html pages use the no-sidebar layout (\_layouts/no-sidebar.html). If you want a left sidebar, overwrite the post.html file with the contents of left-sidebar.html.</li>
 <li>The site name and description shown at the top of pages is set in \_config.yml.</li>
 <li>The contact info at the bottom of pages is set in \_config.yml.</li>
 <li>Some lorum ipsum text from Stronly Typed has been replaced with text from [Space Ipsum](http://spaceipsum.com).</li>
