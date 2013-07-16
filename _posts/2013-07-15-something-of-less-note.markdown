@@ -3,12 +3,9 @@ layout: post
 title:  "Something of less note"
 date:   2013-07-15 19:00:00
 categories: sidebar-highlight
+image: /images/pic07c.jpg
 ---
 
-<a class="image image-left" href="{{ site.baseurl }}{{ page.url }}">
-    <img alt="" src="{{ site.baseurl }}/images/pic07c.jpg">
-    <!-- <img alt="" src="http://placekitten.com/g/180/180"> -->
-</a>
 Problems look mighty small from 150 miles up.
  
 What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.

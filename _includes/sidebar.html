@@ -46,15 +46,19 @@
                               <!-- more--> tip via https://coderwall.com/p/eazb7w
                               {% endcomment %}
 
+                              {% if post contains 'image' %}
+
+                                <a class="image image-left" href="{{ site.baseurl }}{{ post.url }}">
+                                  <img alt="" src="{{ site.baseurl }} {{ post.image }}">
+                                </a>
+
+                              {% endif %}
+
                               {% if post.content contains '<!--more-->' %}
                                 {{ post.content | split:'<!--more-->' | first }}
                               {% else %}
                                 <!-- Case for when no excerpt is defined -->
-                                {% comment %} Hmm... post.excerpt doesn't seem to run the exerpt through liquid first. Add a <!--more--> tag to force the content to be parsed.
-                                {% endcomment %}
-
                                 {{ post.excerpt }}
-
                               {% endif %}
 
                               <ul class="actions">
