@@ -3,7 +3,6 @@ layout: post
 title:  "Something of less note"
 date:   2013-07-15 19:00:00
 categories: sidebar-highlight
-image: http://placekitten.com/g/180/180
 ---
 
 <a class="image image-left" href="{{ page.url }}">
