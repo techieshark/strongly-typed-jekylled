@@ -8,7 +8,7 @@ categories: frontpage
 
 <a href="http://regularjane.deviantart.com/art/Write-354865228" class="image image-full">
     <!-- <img src="http://placekitten.com/g/785/303" alt="" /> -->
-    <img src="images/pic04c.jpg" alt="" />
+    <img src="{{ site.baseurl }}/images/pic04c.jpg" alt="" />
 </a>
 <h3>I mean isn't it possible?</h3>
 

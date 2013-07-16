@@ -6,7 +6,7 @@ categories: sidebar-highlight
 ---
 
 <a class="image image-left" href="{{ page.url }}">
-    <img alt="" src="/images/pic07c.jpg">
+    <img alt="" src="{{ site.baseurl }}/images/pic07c.jpg">
     <!-- <img alt="" src="http://placekitten.com/g/180/180"> -->
 </a>
 Problems look mighty small from 150 miles up.

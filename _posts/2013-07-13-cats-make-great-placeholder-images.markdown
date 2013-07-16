@@ -7,7 +7,7 @@ categories: frontpage
 
 <a href="{{page.url}}" class="image image-full">
 <!--     <img src="http://placedog.com/g/784/303" alt="" />-->    
-        <img src="images/pic05c.jpg" alt="" />
+        <img src="{{ site.baseurl }}/images/pic05c.jpg" alt="" />
 </a>
 There are a number of places you can get placeholder images to go along with your lorum text:
 * [Holder.js](http://imsky.github.io/holder/) (extra cool because it operates client side w/ 6KB of JS)
