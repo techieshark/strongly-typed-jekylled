@@ -2,18 +2,3 @@
 layout: default
 title: "@techieshark's blog"
 ---
-
-<ul class="divided">
-	{% for post in site.posts %}
-	<li>
-	    <!-- Excerpt -->
-	    <article class="is-excerpt">
-	      <header>
-	        <span class="date">{{ post.date | date_to_string }}</span>
-	        <h3><a href="#">{{ post.title }}</a></h3>
-	      </header>
-	      THIS IS NOT CURRENTLY USED. HMM....
-	    </article>
-	</li>
-	{% endfor %}
-</ul>
