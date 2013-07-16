@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+  Design: Strongly Typed 1.0 by HTML5 UP
+  html5up.net | @n33co
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  {% include head.html %}
+
+  <body class="homepage">
+
+    {% include head-wrapper.html %}
+
+    {% include features.html %}
+    {% include banner.html %}
+
+    <!-- Main Wrapper -->
+      <div id="main-wrapper">
+
+        <!-- Main -->
+          <div id="main" class="container">
+            <div class="row">
+
+              <!-- Content -->
+                <div id="content" class="8u">
+
+                  {% for page in site.categories.frontpage %}                  
+
+                  <!-- Post -->
+                    <article class="is-post">
+                      <header>
+                        <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+                      </header>
+                      {{ page.content }}
+                      <ul class="actions">
+                        <li><a href="{{ page.url }}" class="button button-icon icon icon-file">Permalink</a></li>
+                      </ul>
+                    </article>
+
+                  {% endfor %}
+                </div>
+
+                {% include sidebar.html %}
+
+            </div>
+          </div>
+
+      </div>
+
+   {% include footer.html %}
+
+    </body>
+</html>
