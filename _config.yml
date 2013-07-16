@@ -2,7 +2,7 @@
 name: "Strongly Typed"
 description: "A responsive HTML5 site template. Manufactured by HTML5 UP. Jekylled by @techieshark."
 pygments: true
-baseurl: "http://techieshark.github.io/strongly-typed-jekylled"
+baseurl: "/strongly-typed-jekylled"
 #excerpt_separator: "<!--more-->"
 
 owner: "Your Name"

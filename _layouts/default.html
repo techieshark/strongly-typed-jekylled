@@ -29,11 +29,11 @@
                   <!-- Post -->
                     <article class="is-post">
                       <header>
-                        <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+                        <h2><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h2>
                       </header>
                       {{ page.content }}
                       <ul class="actions">
-                        <li><a href="{{ page.url }}" class="button button-icon icon icon-file">Permalink</a></li>
+                        <li><a href="{{ site.baseurl }}{{ page.url }}" class="button button-icon icon icon-file">Permalink</a></li>
                       </ul>
                     </article>
 

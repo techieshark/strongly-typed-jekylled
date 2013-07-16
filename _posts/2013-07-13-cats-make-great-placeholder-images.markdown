@@ -5,7 +5,7 @@ date:   2013-07-13 20:58:00
 categories: frontpage
 ---
 
-<a href="{{page.url}}" class="image image-full">
+<a href="{{ site.baseurl }}{{page.url}}" class="image image-full">
 <!--     <img src="http://placedog.com/g/784/303" alt="" />-->    
         <img src="{{ site.baseurl }}/images/pic05c.jpg" alt="" />
 </a>

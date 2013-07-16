@@ -5,7 +5,7 @@ date:   2013-07-15 19:00:00
 categories: sidebar-highlight
 ---
 
-<a class="image image-left" href="{{ page.url }}">
+<a class="image image-left" href="{{ site.baseurl }}{{ page.url }}">
     <img alt="" src="{{ site.baseurl }}/images/pic07c.jpg">
     <!-- <img alt="" src="http://placekitten.com/g/180/180"> -->
 </a>

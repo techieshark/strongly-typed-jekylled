@@ -5,7 +5,7 @@ date:   2013-07-15 19:01:00
 categories: sidebar-highlight
 ---
 
-<a class="image image-left" href='{{ page.url }}'>
+<a class="image image-left" href='{{ site.baseurl }}{{ page.url }}'>
     <img alt="" src="{{ site.baseurl }}/images/pic06c.jpg">
 </a>
 Phasellus sed laoreet massa id justo mattis pharetra. Fusce suscipit ligula vel quam viverra sit amet mollis tortor congue magna lorem ipsum dolor et quisque ut odio facilisis convallis. Etiam non nunc vel est suscipit convallis non id orci. Ut interdum tempus facilisis convallis. Etiam non nunc vel est suscipit convallis non id orci.
